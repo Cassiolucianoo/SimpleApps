@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculate The Race</string>
+    <string name="distancia">Distancia</string>
+    <string name="preco">Preço</string>
+    <string name="autonomia">Autonomia</string>
+    <string name="calcular">Calcular</string>
+    <string name="valores_validos">Informe valores válidos</string>
+    <string name="total_de_quilometros">Total de Quilometros</string>
+    <string name="valor_em_litro">Valor em litro R$</string>
+    <string name="km_por_litro">KM POR LITRO</string>
+</resources>

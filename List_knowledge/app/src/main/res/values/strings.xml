@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LISTA DE CONHECIMENTOS</string>
+
+    <string name="program_mobile">Mobile</string>
+
+    <string name = "kotlin">
+        Escreva apps melhores para Android mais rapidamente com o Kotlin.
+        O Kotlin é uma linguagem de programação moderna e tipada estaticamente
+        que aumentará sua produtividade e sua satisfação como desenvolvedor.
+    </string>
+
+    <string name = "swiftt"> Swift é uma linguagem de programação poderosa e intuitiva
+        para macOS, iOS, watchOS, tvOS e além. Escrever código Swift é interativo e divertido,
+        a sintaxe é concisa e expressiva, e Swift inclui recursos modernos que os desenvolvedores
+        adoram. O código Swift é seguro por design, mas também produz software que é extremamente
+        rápido.</string>
+
+</resources>

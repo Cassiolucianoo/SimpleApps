@@ -4,15 +4,12 @@
 
     <string name="program_mobile">Mobile</string>
 
-    <string name="kotlin">
-     Write better Android apps faster with Kotlin.
-        Kotlin is a modern statically typed programming language that will
-        boost your productivity and increase your developer happiness.
-    </string>
+    <string name="goku">
+Son Goku hero
+Frankia Dragon Ball, criada por Toriyama Akira.
+Sua primeiraapariçãoocorreu no primeirocapítulo
+Manga Dragon Ball, Intiturad Bulma and Song Ngok, Public
+Revised Weekly Shonen Jump March 3, 1984</string>
 
-    <string name = "swiftt"> Swift is a powerful and intuitive programming language for macOS,
-        iOS, watchOS, tvOS and beyond. Writing Swift code is interactive and fun, the syntax is
-        concise yet expressive, and Swift includes modern features developers love. Swift code is
-        safe by design, yet also produces software that runs lightning-fast.</string>
 
 </resources>

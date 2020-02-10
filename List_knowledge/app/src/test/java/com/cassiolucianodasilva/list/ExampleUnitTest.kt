@@ -1,4 +1,4 @@
-package com.cassiolucianodasilva.listknowledge
+package com.cassiolucianodasilva.list
 
 import org.junit.Test
 

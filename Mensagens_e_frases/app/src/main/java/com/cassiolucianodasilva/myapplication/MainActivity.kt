@@ -1,4 +1,4 @@
-package com.example.mensagensefrases
+package com.cassiolucianodasilva.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

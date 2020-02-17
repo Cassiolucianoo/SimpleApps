@@ -6,13 +6,51 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <LinearLayout
+        android:id="@+id/linearMenuFilter"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageDev"
+           style="@style/MeunoItem"
+            android:src="@drawable/ic_devunselected"/>
+        <ImageView
+            android:id="@+id/imageIdeas"
+            style="@style/MeunoItem"
+            android:src="@drawable/ic_ideasunselected"/>
+        <ImageView
+            android:id="@+id/imageLove"
+            style="@style/MeunoItem"
+            android:src="@drawable/ic_loveunselected"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf=" @+id/linearMenuFilter"
+        android:text="Usuário"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/textPhrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textUserName"
+        android:text="Phrace"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nova Menssagem "
+        app:layout_constraintTop_toBottomOf="@+id/textPhrase"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.example.mensagensefrases
+package com.cassiolucianodasilva.myapplication
 
 import org.junit.Test
 

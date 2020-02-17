@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Mensagens e Frases</string>
+    <string name="app_name">My Application</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="informe_o_seu_nome">Informe o seu nome</string>
+    <string name="salvar">salvar</string>
 </resources>

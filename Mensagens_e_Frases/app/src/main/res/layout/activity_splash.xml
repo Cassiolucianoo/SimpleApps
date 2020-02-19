@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity">
+    tools:context=".SplashActivity"
+    android:background="@color/splashScreenScreenFullColor">
 
     <EditText
+        android:textColor="@color/textColor"
         android:id="@+id/editName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

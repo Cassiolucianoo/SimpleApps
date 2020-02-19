@@ -5,7 +5,10 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="black_overlay">#66000000</color>
-    
+
     <color name="menuItemSelected">#0FA1E6</color>
     <color name="menuItemUnSelected">#F10707</color>
+
+    <color name="splashScreenScreenFullColor">#BE4AD3</color>
+    <color name="textColor">#FFFFFF</color>
 </resources>

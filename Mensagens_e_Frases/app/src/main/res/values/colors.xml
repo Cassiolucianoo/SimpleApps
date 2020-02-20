@@ -10,5 +10,6 @@
     <color name="menuItemUnSelected">#F10707</color>
 
     <color name="splashScreenScreenFullColor">#BE4AD3</color>
+    <color name="buttonColor">#CD96D8</color>
     <color name="textColor">#FFFFFF</color>
 </resources>

@@ -38,6 +38,11 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
 
     }
 
+
+
+
+
+
     private fun handlesave(){
         val name = editName.text.toString()
 

@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+
+    tools:context=".ui.MainActivity">
 
     <LinearLayout
         android:id="@+id/linearMenuFilter"
+        android:background="@color/buttonColor"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:orientation="horizontal"
@@ -16,13 +18,13 @@
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:id="@+id/imageDev"
+            android:id="@+id/imageAll"
            style="@style/MeunoItem"
-            android:src="@drawable/ic_devunselected"/>
+            android:src="@drawable/ic_full_moon"/>
         <ImageView
-            android:id="@+id/imageIdeas"
+            android:id="@+id/imageHappy"
             style="@style/MeunoItem"
-            android:src="@drawable/ic_ideasunselected"/>
+            android:src="@drawable/ic_smiley"/>
         <ImageView
             android:id="@+id/imageLove"
             style="@style/MeunoItem"
@@ -32,25 +34,74 @@
     </LinearLayout>
 
     <TextView
+        android:textColor="@color/black_overlay"
         android:id="@+id/textUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf=" @+id/linearMenuFilter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
         android:text="Usuário"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf=" @+id/linearMenuFilter"
         tools:ignore="MissingConstraints" />
+
     <TextView
         android:id="@+id/textPhrase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+
+        android:textSize="20dp"
+        android:text="Frase"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textUserName"
-        android:text="Phrace"
         tools:ignore="MissingConstraints" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nova Menssagem "
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="128dp"
+        android:layout_height="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="@color/buttonColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textPhrase"
         tools:ignore="MissingConstraints" />
+
+    <Button
+
+        android:id="@+id/buttonMessage"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:background="@color/buttonColor"
+        android:text="Nova Menssagem "
+        android:textColor="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="304dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.0140625" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

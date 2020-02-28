@@ -7,9 +7,10 @@
     <color name="black_overlay">#66000000</color>
 
     <color name="menuItemSelected">#0FA1E6</color>
-    <color name="menuItemUnSelected">#F10707</color>
+    <color name="menuItemUnSelected">#FFFFFF</color>
 
     <color name="splashScreenScreenFullColor">#2B8FE7</color>
     <color name="buttonColor">#5CAAEE</color>
+    <color name="buttonSelectedMenu">#2E618D</color>
     <color name="textColor">#FFFFFF</color>
 </resources>

@@ -1,4 +1,4 @@
-package com.cassiolucianodasilva.myapplication
+package com.cassiolucianodasilva.myapplication.ui
 
 import android.content.Context
 import android.content.Intent
@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.cassiolucianodasilva.myapplication.R
 import com.cassiolucianodasilva.myapplication.infra.SecurityPreferences
 import kotlinx.android.synthetic.main.activity_splash.*
 
@@ -37,12 +38,6 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
         }
 
     }
-
-
-
-
-
-
     private fun handlesave(){
         val name = editName.text.toString()
 
@@ -52,7 +47,7 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
             mSecurityPreferences.storeString("name",name)
 
             // avança para activity principal
-            val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
 //          outra forma de navegar entre activity
            // startActivity(Intent(this,MainActivity::class.java))

@@ -34,6 +34,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
         if(supportActionBar!= null){
             supportActionBar!!.hide()
         }
+        mSecurityPreferences = SecurityPreferences(this)
+        val name  = mSecurityPreferences.getString(MotivationConstants.KEY.PERSONAL_NAME)
+        textUserName.text = " Olá ,$name"
 
 
     }

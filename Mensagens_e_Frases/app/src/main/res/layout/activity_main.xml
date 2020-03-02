@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:text="Usuário"
+        android:text="@string/user"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,8 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="176dp"
 
-        android:textSize="20dp"
-        android:text="Frase"
+        android:textSize="20sp"
+        android:text="@string/phrase"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,14 +79,13 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
-        android:background="@color/buttonColor"
-        android:text="Nova Menssagem "
+        android:background="@drawable/ripple_button"
+        android:text="@string/newMessage"
+        android:backgroundTint="@color/buttonColor"
         android:textColor="@color/textColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
-
-
         app:layout_constraintRight_toRightOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline

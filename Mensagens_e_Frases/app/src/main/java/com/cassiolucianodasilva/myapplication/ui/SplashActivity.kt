@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.cassiolucianodasilva.myapplication.R
+import com.cassiolucianodasilva.myapplication.infra.MotivationConstants
 import com.cassiolucianodasilva.myapplication.infra.SecurityPreferences
 import kotlinx.android.synthetic.main.activity_splash.*
 
@@ -24,6 +25,7 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
             supportActionBar!!.hide()
         }
         buttonSave.setOnClickListener(this)
+        verifyName()
 
         //salvando  dados usando o sharedpreferences
         val shared = this.getSharedPreferences("mensagem", Context.MODE_PRIVATE)
@@ -38,6 +40,17 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
         }
 
     }
+    private fun verifyName(){
+        val name = mSecurityPreferences.getString(MotivationConstants.KEY.PERSONAL_NAME)
+            if (name !=""){
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+                finish()
+            }
+
+
+    }
+
     private fun handlesave(){
         val name = editName.text.toString()
 
@@ -46,11 +59,14 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
 
             mSecurityPreferences.storeString("name",name)
 
+
             // avança para activity principal
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
 //          outra forma de navegar entre activity
            // startActivity(Intent(this,MainActivity::class.java))
+
+            finish()
 
         }
         //Se o campo estiver em branco, alerta o usuario para cadastrar

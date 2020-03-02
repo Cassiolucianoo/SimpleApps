@@ -7,4 +7,8 @@
     <string name="informe_o_seu_nome">Informe o seu nome ou apelido</string>
     <string name="salvar">salvar</string>
     <string name="tost_informename">Informe seu nome !</string>
+    <string name="newMessage">Nova Menssagem</string>
+    <string name="phrase">Frase</string>
+    <string name="user">Usuário</string>
+    <string name="go">Pronto ?</string>
 </resources>

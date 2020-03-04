@@ -1,25 +1,40 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\triibo\\Desktop\\Teste\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\triibo\\Desktop\\Teste - Copia (2)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\triibo\\Desktop\\Teste\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\triibo\\Desktop\\Teste - Copia (2)\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "3,10",
+                        "startLines": "1,2",
                         "startColumns": "4,4",
-                        "startOffsets": "57,384",
-                        "endLines": "8,13",
-                        "endColumns": "12,12",
-                        "endOffsets": "376,545"
+                        "startOffsets": "17,72",
+                        "endColumns": "53,47",
+                        "endOffsets": "66,115"
                     },
                     "to": {
-                        "startLines": "416,1800",
+                        "startLines": "407,408",
                         "startColumns": "4,4",
-                        "startOffsets": "24797,118446",
-                        "endLines": "421,1803",
-                        "endColumns": "12,12",
-                        "endOffsets": "25111,118604"
+                        "startOffsets": "24129,24183",
+                        "endColumns": "53,47",
+                        "endOffsets": "24178,24226"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\triibo\\Desktop\\Teste - Copia (2)\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,7,2,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "157,208,57,105",
+                        "endColumns": "45,43,46,50",
+                        "endOffsets": "198,247,99,151"
+                    },
+                    "to": {
+                        "startLines": "152,153,154,155",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7643,7689,7733,7780",
+                        "endColumns": "45,43,46,50",
+                        "endOffsets": "7684,7728,7775,7826"
                     }
                 },
                 {
@@ -42,37 +57,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\triibo\\Desktop\\Teste\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\triibo\\Desktop\\Teste - Copia (2)\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "4,7,2,3",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "157,208,57,105",
-                        "endColumns": "45,43,46,50",
-                        "endOffsets": "198,247,99,151"
+                        "startLines": "3,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,384",
+                        "endLines": "8,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "376,545"
                     },
                     "to": {
-                        "startLines": "152,153,154,155",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "7643,7689,7733,7780",
-                        "endColumns": "45,43,46,50",
-                        "endOffsets": "7684,7728,7775,7826"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\triibo\\Desktop\\Teste\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,2",
+                        "startLines": "416,1800",
                         "startColumns": "4,4",
-                        "startOffsets": "17,72",
-                        "endColumns": "53,47",
-                        "endOffsets": "66,115"
-                    },
-                    "to": {
-                        "startLines": "407,408",
-                        "startColumns": "4,4",
-                        "startOffsets": "24129,24183",
-                        "endColumns": "53,47",
-                        "endOffsets": "24178,24226"
+                        "startOffsets": "24797,118446",
+                        "endLines": "421,1803",
+                        "endColumns": "12,12",
+                        "endOffsets": "25111,118604"
                     }
                 },
                 {

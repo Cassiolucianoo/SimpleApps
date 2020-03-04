@@ -676,8 +676,11 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_pause
+drawable ic_pause_red
 drawable ic_play
+drawable ic_play_red
 drawable ic_stop
+drawable ic_stop_red
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -690,6 +693,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pausebutton
+drawable playbutton
+drawable stopbutton
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -753,14 +759,15 @@ id activity_chooser_view_content
 id add
 id alertTitle
 id always
+id animation_view
 id async
 id barrier
 id beginning
 id blocking
 id bottom
-id button
-id button2
 id buttonPanel
+id button_pause
+id button_stop
 id center_vertical
 id chains
 id checkbox
@@ -795,7 +802,6 @@ id info
 id invisible
 id italic
 id lav_android_wave_json
-id lav_android_wave_json4
 id left
 id line1
 id line3
@@ -870,6 +876,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
+id textView2
 id time
 id title
 id titleDividerNoCustom

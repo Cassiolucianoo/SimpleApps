@@ -23,9 +23,16 @@ public class RecyclerView extends AppCompatActivity {
 
         NotaDAO dao = new NotaDAO();
 
+
         for ( int  i = 1 ; i <= 1000 ; i++) {
             dao.insere(new Nota("Nota" + i, "Descrição "+i));
         }
+
+
+        dao.insere(new Nota("Primeira nota cara","Primeira descrição"));
+        dao.insere(new Nota("Primeira nota cara","Primeira descrição"));
+        dao.insere(new Nota("Primeira nota cara","Primeira descrição"));
+        dao.insere(new Nota("Primeira nota cara","Primeira descrição"));
 
 
         List<Nota> todasNotas = dao.todos();

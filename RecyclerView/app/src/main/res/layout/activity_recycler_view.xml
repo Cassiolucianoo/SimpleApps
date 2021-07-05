@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".ui.activity.RecyclerView">
 
-    <ListView
-        android:id="@+id/listView"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Recyclerview"
         android:layout_width="399dp"
         android:layout_height="659dp"
 

@@ -22,10 +22,11 @@ public class RecyclerView extends AppCompatActivity {
         ListView listaNotas = findViewById(R.id.listView);
 
         NotaDAO dao = new NotaDAO();
-        dao.insere(new Nota("Primeira nota cara","Primeira descrição"));
-        dao.insere(new Nota("Primeira nota cara","Primeira descrição"));
-        dao.insere(new Nota("Primeira nota cara","Primeira descrição"));
-        dao.insere(new Nota("Primeira nota cara","Primeira descrição"));
+
+        for ( int  i = 1 ; i <= 1000 ; i++) {
+            dao.insere(new Nota("Nota" + i, "Descrição "+i));
+        }
+
 
         List<Nota> todasNotas = dao.todos();
 

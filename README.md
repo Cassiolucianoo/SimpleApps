@@ -15,6 +15,7 @@ Aqui você encontrará informações e aplicações simples onde entra meus conh
 - Criando e alinhando elementos
 - Eliminando duplicidade em elementos -Criando estilos
 - Ajsute aplicação para landscape
+- mvvm and Android architecture
 
 ### Estudos applicativo (Calculadora de IMC)
 

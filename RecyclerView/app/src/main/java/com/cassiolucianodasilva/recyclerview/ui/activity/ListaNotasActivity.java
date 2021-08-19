@@ -1,25 +1,27 @@
 package com.cassiolucianodasilva.recyclerview.ui.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.ListView;
+
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.cassiolucianodasilva.recyclerview.R;
 import com.cassiolucianodasilva.recyclerview.dao.NotaDAO;
 import com.cassiolucianodasilva.recyclerview.model.Nota;
-import com.cassiolucianodasilva.recyclerview.ui.adapter.ListaNotasAdapter;
+import com.cassiolucianodasilva.recyclerview.ui.recyclerview.adapter.ListaNotasAdapter;
+
 
 import java.util.List;
 
-public class RecyclerView extends AppCompatActivity {
+public class ListaNotasActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycler_view);
 
-        ListView listaNotas = findViewById(R.id.listView);
+        ListView listaNotas = findViewById(R.id.nota_ini_recyclerview);
 
         NotaDAO dao = new NotaDAO();
 
@@ -29,15 +31,10 @@ public class RecyclerView extends AppCompatActivity {
         }
 
 
-        dao.insere(new Nota("Primeira nota cara","Primeira descrição"));
-        dao.insere(new Nota("Primeira nota cara","Primeira descrição"));
-        dao.insere(new Nota("Primeira nota cara","Primeira descrição"));
-        dao.insere(new Nota("Primeira nota cara","Primeira descrição"));
-
 
         List<Nota> todasNotas = dao.todos();
 
-        listaNotas.setAdapter(new ListaNotasAdapter(this, todasNotas));
+        listaNotas.setAdapter( new ListaNotasAdapter(this, todasNotas));
 
 
 

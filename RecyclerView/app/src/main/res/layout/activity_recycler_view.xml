@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activity.RecyclerView">
+    tools:context=".ui.activity.ListaNotasActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/Recyclerview"
-        android:layout_width="399dp"
-        android:layout_height="659dp"
+        android:id="@+id/nota_ini_recyclerview"
+        android:layout_width="436dp"
+        android:layout_height="680dp"
 
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
